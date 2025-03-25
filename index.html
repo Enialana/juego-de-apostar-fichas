@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicios--lulu</title>
+    <style>
+        @font-face {
+            font-family: fac;
+            src: url("FiraCode-Light.ttf");
+        }
+        body{
+            display: block;
+        }
+        button{
+            flex-direction: row;
+            margin: 10px 10px;
+            width: max-content;
+            height: 50px;
+            border-radius: 5px;
+            text-align: center;
+            background-color: #f3a0f3;
+            justify-content: center;
+        }  
+        img {
+            flex-direction: column;
+            width: 150px;
+            margin: 10px;
+        } 
+        #container{
+            flex-direction: row;
+        }
+        .monedas{
+            font-size: 1.8em;
+        }
+        .contenedorbolas{
+            display: flex;
+      
+        }
+        .mensaje{
+            font-size: 20px;
+            color: #ec0e0e;
+        }
+        p{
+            font-size: 12px;
+            font-family: "fac";
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <h2>¡¡Apuesta Fichas!!
+    </h2>
+    <article>
+        <p></p>
+    </article>
+    <div id="container"></div>
+    <article>
+        <p><strong>REGLAS</strong></p>
+        <P>Se inicia el juego con 10 fichas.</P>
+        <P>Se apuesta un número de fichas del 3 al 9.</P>
+        <P>Por cada ficha que coincida con el número introducido se sumará una ficha.</P>
+        <P>Por cada ficha diferente del número introducido se restará una ficha.</P>
+        <p>¡Suerte!</p>
+    </article>
+    <script src="monedas.js"></script>
+</body>
+</html>
